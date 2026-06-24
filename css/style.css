@@ -1,0 +1,223 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-size:10px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+li
+
+wrapper
+{
+    display: flex;
+    font-size: 10px;
+    height:8 vh;
+}
+body
+{
+    background-color: rgba(108, 98, 161, 0.722);
+
+    background-size : cover;
+    background-position: center;
+
+}
+p
+{
+    position: fixed;
+    float: right;
+    margin-top: 3em;
+    margin-left: 4cm;
+    bottom: 78%;
+    right: 30%;
+    border-left-width: 8cm;
+    border-right: 50%;
+    font-size:x-large;
+    word-spacing: 7 px;
+    min-height: 33px;
+    background-color:transparent; 
+    text-align: left;
+    font-weight: 600;
+    color: rgba(240, 255, 255, 0.282);
+    fill-opacity: inherit;
+}
+
+h1
+{
+    position: fixed;
+    float: center;
+    margin-top: 3em;
+    margin-left: 3cm;
+    bottom:66%;
+    border-left-width: 8cm;
+    border-right: 50%;
+    font-size:xx-large;
+    word-spacing: 5px;
+    min-height: 25px;
+    background-color:transparent;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(240, 255, 255, 0.282);
+    fill-opacity: inherit;
+}
+
+
+
+nav 
+{ 
+    margin: auto;
+    padding: 10px  70px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow:0.5px 4px rgb(37, 37, 74);  
+    border-radius: 1em;
+    border:1px solid rgb(69, 65, 65);
+
+
+}
+
+
+
+
+.nav-links
+{
+    display: flex;
+    gap: 3em;
+    font-size:medium; 
+
+}
+
+nav-links li,.dropdown li
+{
+    height: 100%;
+    margin: auto;
+    padding: 2.7px  9px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a
+{
+    color: rgb(222, 222, 231);
+
+}
+
+.dropdown
+{
+    position: absolute;
+    padding: 0px;
+    color: white;
+    background-color: rgb(42, 63, 10);
+    backdrop-filter: blur(10px);
+    box-shadow: 0.5px 12px rgb(10, 3, 3);
+    color: white;
+    box-shadow: 0.5px 12px rgb(10, 3, 3);
+    border-radius: 1 em;
+    display: none;
+}
+
+
+li
+{
+    border-radius: 0.6em;
+    transition: 0.3s ease;
+
+}
+
+li:hover 
+{
+    background-color:rgb(47, 19, 73);
+    
+}
+
+li:hover .dropdown
+{
+    display: block;
+    
+
+    
+
+}
+
+ul li .dropdown
+{
+    display: inline-flexbox;
+    position: relative;
+    text-align: left;
+
+}
+
+.dropdown li:nth-child(2):hover .dropdown-2
+{
+    display:block;
+    
+}
+
+.back-video
+{
+    position: absolute;
+    top:0;
+    bottom:0;
+
+}
+
+.header sub-menue
+{
+    top: 50px important;
+} 
+
+.float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:transparent;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:50px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float {
+	margin-top:16px;
+}
+
+location
+{
+    padding: 0;
+    display:block;
+    background: #FFF;
+
+
+}
+name
+{
+    display:inline-flex;
+    background: rgb(5, 5, 36);
+    position: fixed;
+}
+
+name .li
+{
+    display:list-item;
+    gap: 4cm;
+    font-size: large;
+}
+
+nav2 
+{ 
+    margin: auto;
+    position: fixed;
+    padding: 10px  70px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow:0.5px 4px rgb(13, 13, 45);  
+    border-radius: 1em;
+    border:1px solid rgb(69, 65, 65);
+}
